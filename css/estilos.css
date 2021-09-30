@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6fc;
+}
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+td{
+    padding: 0;
+}
+img{
+    border: 0;
+}
+
+/*Media queries*/
+@media (max-width: 600px){ 
+      
+}
+
+/*Encabezado*/
+
+.encabezado{    
+    margin: 0 auto;
+    width: 100%;    
+    background-color: #f6f6fc;
+    padding-bottom: 5px;
+}
+
+.encabezado-contenido{
+    max-width: 600px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+.tabla-principal{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #4a4a4a;
+    table-layout: fixed;
+    align-content: center;
+}
+.td-logo{
+    background-color: rgb(86, 141, 243);
+    padding: 10px; 
+}
+.td-logo img{
+    width: 180;
+    max-width: 100%;
+
+}
+.td-fachada img{
+    width: 180;
+    height: 1200;
+    max-width: 100%;
+   
+}
+
+/*Entradas*/
+
+.entrada{
+    padding: 10px;
+}
+.entrada img{
+    width: 95%;
+    max-width: 200px;  
+}
+
+.dos-columnas{
+    text-align: left;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;    
+
+}
+.dos-columnas, .columna{
+    width: 100%;
+    max-width: 600px;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.columna{   
+    max-width: 600px;
+    background-color: #ffffff;
+    display: table-cell;
+    vertical-align: top;
+}
+.padding{
+    padding: 15px;
+}
+.dos-columnas, .contenido{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.entrada-texto{
+    padding: 10px;
+    width: 100%;
+}
+.titulo{
+    font-weight: 700;
+    color: rgb(40, 76, 141);
+    font-family: sans-serif;
+}
+.texto{
+    font-weight: 100;
+    color: #727070;
+    font-family: sans-serif;
+}
+
+/*Boton Leer mas*/
+.entrada-texto a{
+    width: 7rem;
+    height: 1rem;
+    display: inline-block;
+    background-color: rgb(40, 76, 141);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+   
+}
