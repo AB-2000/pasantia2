@@ -18,6 +18,9 @@ img{
 @media (max-width: 600px){ 
       
 }
+a{
+    border: none;
+}
 
 /*Encabezado*/
 
@@ -44,20 +47,11 @@ img{
     table-layout: fixed;
     align-content: center;
 }
-.td-logo{
-    background-color: rgb(86, 141, 243);
-    padding: 10px; 
-}
+
 .td-logo img{
     width: 180;
     max-width: 100%;
 
-}
-.td-fachada img{
-    width: 180;
-    height: 1200;
-    max-width: 100%;
-   
 }
 
 /*Entradas*/
